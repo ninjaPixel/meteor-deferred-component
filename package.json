@@ -1,0 +1,32 @@
+{
+  "name": "meteor-deferred-component",
+  "version": "0.0.1",
+  "description": "Reduce your Meteor.js client-side bundle, dynamically import your React.js components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ninjaPixel@github.com/ninjaPixel/meteor-deferred-component.git"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "keywords": [
+    "meteor",
+    "dynamic",
+    "import",
+    "react",
+    "component",
+    "bundle",
+    "size"
+  ],
+  "author": "Matt Michel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjaPixel/meteor-deferred-component/issues"
+  },
+  "homepage": "https://github.com/ninjaPixel/meteor-deferred-component#readme"
+}
