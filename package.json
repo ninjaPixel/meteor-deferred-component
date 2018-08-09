@@ -1,5 +1,5 @@
 {
-  "name": "meteor-deferred-component",
+  "name": "@ninjapixel/meteor-deferred-component",
   "version": "0.0.1",
   "description": "Reduce your Meteor.js client-side bundle, dynamically import your React.js components.",
   "main": "./lib/DeferredComponent.js",
