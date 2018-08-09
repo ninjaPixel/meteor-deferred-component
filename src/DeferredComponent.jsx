@@ -19,13 +19,9 @@ class DeferredComponent extends React.Component {
     const props = this.props;
     const { loading, Component } = this.state;
     if (loading) {
-      return (
-        <div className="meteor-deferred-component__loading">
-          {this.props.loadingComponent || null}
-        </div>
-      );
+      return this.props.loadingComponent || null
     }
-    return <Component {...props} />;
+    return (<Component {...props} />);
   }
 }
 
