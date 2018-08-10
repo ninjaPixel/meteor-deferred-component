@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 
 class DeferredComponent extends React.Component {
@@ -28,9 +28,9 @@ class DeferredComponent extends React.Component {
   }
 }
 
-DeferredComponent.propTypes = {
-  importFunction: PropTypes.func.isRequired,
-};
+// DeferredComponent.propTypes = {
+//   importFunction: PropTypes.func.isRequired,
+// };
 
 
 export default DeferredComponent;
