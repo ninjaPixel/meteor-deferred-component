@@ -1,6 +1,6 @@
 {
   "name": "@ninjapixel/meteor-deferred-component",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Reduce your Meteor.js client-side bundle, dynamically import your React.js components.",
   "main": "./lib/DeferredComponent.js",
   "scripts": {
@@ -33,6 +33,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.24.1",
